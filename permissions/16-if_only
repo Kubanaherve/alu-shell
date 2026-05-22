@@ -1,0 +1,2 @@
+#!/bin/bash
+if [ "$(ls -l hello | awk "{print \$3}")" = "guillaume" ]; then chown vincent hello; fi
